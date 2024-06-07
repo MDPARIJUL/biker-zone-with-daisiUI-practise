@@ -19,6 +19,7 @@
                 clifford: '#da373d',
                 'common-primary': '#E76F51',
                 'slider-primary': 'rgba(231, 111, 81, 0.1)',
+                'happy-client':'#23A6F0',
               }
             }
           }
@@ -68,7 +69,7 @@
                       <li><a>Item 3</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost  poppins-bold text-4xl">Bike Dekho</a>
+                  <a class="btn btn-ghost  poppins-bold md:text-4xl">Bike Dekho</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 poppins-medium">
@@ -84,12 +85,12 @@
               </div>
         </nav>
         <!-- carousel  -->
-        <div class="carousel w-full bg-slider-primary">
+        <div class="carousel w-full bg-slider-primary my mb-32">
           <!-- slide1 -->
           <div id="slide1" class="carousel-item relative w-full">
-            <div class="flex items-center p-24">
+            <div class="flex flex-col md:flex-row items-center p-4 md:p-24 gap-24">
               <div class="flex-1">
-                <h1 class="poppins-bold text-6xl">Ride-on R15 V4 with Smile</h1>
+                <h1 class="poppins-bold md:text-6xl">Ride-on R15 V4 with Smile</h1>
                 <p class="poppins-regular text-base">Amet minim mollit non deserunt ullamco 
                   est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                   <div class=""> 
@@ -97,7 +98,7 @@
                 </div>    
               </div>
               <div class="flex-1">
-                <img src="images/slider/bike1.png" class="w-full" />
+                <img src="images/slider/bike1.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -107,9 +108,9 @@
           </div> 
           <!-- slide2 -->
           <div id="slide2" class="carousel-item relative w-full">
-            <div class="flex items-center p-24">
+            <div class="flex flex-col md:flex-row items-center p-4 md:p-24 gap-24">
               <div class="flex-1">
-                <h1 class="poppins-bold text-6xl">Ride-on R15 V4 with Smile</h1>
+                <h1 class="poppins-bold md:text-6xl">Ride-on R15 V4 with Smile</h1>
                 <p class="poppins-regular text-base">Amet minim mollit non deserunt ullamco 
                   est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                   <div class=""> 
@@ -117,7 +118,7 @@
                 </div>    
               </div>
               <div class="flex-1">
-                <img src="images/slider/bike2.png" class="w-full" />
+                <img src="images/slider/bike2.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -127,9 +128,9 @@
           </div> 
           <!-- slide3 -->
           <div id="slide3" class="carousel-item relative w-full">
-            <div class="flex items-center p-24">
+            <div class="flex flex-col md:flex-row items-center p-4 md:p-24 gap-24">
               <div class="flex-1">
-                <h1 class="poppins-bold text-6xl">Ride-on R15 V4 with Smile</h1>
+                <h1 class="poppins-bold md:text-6xl">Ride-on R15 V4 with Smile</h1>
                 <p class="poppins-regular text-base">Amet minim mollit non deserunt ullamco 
                   est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                   <div class=""> 
@@ -137,7 +138,7 @@
                 </div>    
               </div>
               <div class="flex-1">
-                <img src="images/slider/bike3.png" class="w-full" />
+                <img src="images/slider/bike3.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -146,9 +147,9 @@
             </div>
           </div> 
           <div id="slide4" class="carousel-item relative w-full">
-            <div class="flex items-center p-24">
+            <div class="flex-col md:flex-row items-center p-4 md:p-24 gap-24">
               <div class="flex-1">
-                <h1 class="poppins-bold text-6xl">Ride-on R15 V4 with Smile</h1>
+                <h1 class="poppins-bold md:text-6xl">Ride-on R15 V4 with Smile</h1>
                 <p class="poppins-regular text-base">Amet minim mollit non deserunt ullamco 
                   est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                   <div class=""> 
@@ -156,7 +157,7 @@
                 </div>    
               </div>
               <div class="flex-1">
-                <img src="images/slider/bike4.png" class="w-full" />
+                <img src="images/slider/bike4.png" class="lg:w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -168,10 +169,147 @@
        
     </header>
     <main>
-
+      <!-- happy Clients  -->
+      <section class="mb-32 container mx-auto">
+          <h1 class="poppins-semibold text-5xl text-center mb-12">
+            Happy <span class="text-common-primary">Clients Says </span>
+          </h1>
+          <!-- container  -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+             <!-- card 1 -->
+          <div class="card border border-gray-600 bg-base-100 shadow-xl px-9 py-10">
+            <figure><img src="images/others/user-1.png" alt="Shoes" class="w-36" /></figure>
+            <div class="card-body">
+              <p class="text-base poppins-regular"> Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <!-- rating  -->
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+              <div class="text-center">
+                 <h6 class="text-happy-client poppins-semibold">Regina Miles</h6>
+                 <p  class="poppins-semibold text-black">Banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border border-gray-600 bg-base-100 shadow-xl px-9 py-10">
+            <figure><img src="images/others/user-1.png" alt="Shoes" class="w-36" /></figure>
+            <div class="card-body">
+              <p class="text-base poppins-regular"> Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <!-- rating  -->
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+              <div class="text-center">
+                 <h6 class="text-happy-client poppins-semibold">Regina Miles</h6>
+                 <p  class="poppins-semibold text-black">Banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border border-gray-600 bg-base-100 shadow-xl px-9 py-10">
+            <figure><img src="images/others/user-1.png" alt="Shoes" class="w-36" /></figure>
+            <div class="card-body">
+              <p class="text-base poppins-regular"> Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <!-- rating  -->
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+              <div class="text-center">
+                 <h6 class="text-happy-client poppins-semibold">Regina Miles</h6>
+                 <p  class="poppins-semibold text-black">Banker</p>
+              </div>
+            </div>
+          </div>
+          </div>
+      </section>
+      <!-- FAQ  -->
+      <section>
+        <h1 class="poppins-semibold text-5xl text-center">
+          Frequently <span class="text-common-primary"> Asked Questions  </span>
+        </h1>
+        <div class="hero min-h-screen">
+          <div class="hero-content flex-col lg:flex-row gap-28">
+            <img src="images/others/faq.png" class="md:max-w-sm rounded-lg shadow-lg" />
+            <div>
+              <div class="collapse ">
+                <input type="radio" name="my-accordion-1" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+                  know about riding a bike?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <div class="collapse ">
+                <input type="radio" name="my-accordion-1" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+                  know about riding a bike?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <div class="collapse ">
+                <input type="radio" name="my-accordion-1" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+                  know about riding a bike?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <aside>
+        <!-- <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p> -->
+        <ul class="flex">
+          <li>Download Now</li>
+          <li>License</li>
+        </ul>
+        <ul class="flex gap-4 flex-wrap">
+          <li>About</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Careers</li>
+          <li>Help</li>
+          <li> Privacy Policy</li>
+        </ul>
+        <p>© 2020 bike. All rights reserved</p>
+      </aside> 
+      <nav>
+        <h6 class="footer-title">Get the App</h6> 
+        <div class="">
+          <a> <img src="images/others/android.png" alt="" class="w-1/2"></a>
+          <a><img src="images/others/ios.png" alt="" class="w-1/2"></a>
+        </div>
+      </nav>
     </footer>
 </body>
 </html>
